@@ -13,6 +13,8 @@
   --moon-size-on-flag: 13.25;
   --triangle-height-on-flag: 1.1353;
   --triangle-width-on-flag: 3.28;
+  --moon-left-space-on-flag: 4.78;
+  --moon-top-bottom-space-on-flag: 2.375;
 
   /* flag size in pixels (Provide any size you wish the rest will be calculated) */
   --flag-width-in-pixels: 540px;
@@ -36,10 +38,17 @@
     var(--flag-width-in-pixels) * var(--triangle-height-on-flag) /
       var(--flag-width)
   );
+  --moon-left-space: calc(
+    var(--flag-width-in-pixels) * var(--moon-left-space-on-flag) /
+      var(--flag-width)
+  );
+  --moon-surrounding: calc(
+    var(--flag-width-in-pixels) * var(--moon-top-bottom-space-on-flag) /
+      var(--flag-width)
+  );
   --crescent-effect: calc(-1 * var(--crescent-size)) 0px 0 0 #fff;
-  --left-space: calc(var(--crescent-size) + var(--moon-surrounding));
+  --left-space: calc(var(--crescent-size) + var(--moon-left-space));
   --main-triangle: var(--triangle-height) solid #fff;
-  --moon-surrounding: calc(var(--moon-size) / 10);
   --remove-triangle: calc(var(--triangle-width) / 2) solid transparent;
   --rotate-left: calc(var(--base-angle) + var(--rotation-angle));
   --rotate-right: calc(var(--base-angle) - var(--rotation-angle));
@@ -50,6 +59,21 @@
       var(--flag-width)
   );
   --fix-left-offset: calc(var(--fix-top-offset) / 2);
+}
+
+.flags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: var(--flag-height-in-pixels);
+  justify-content: flex-start;
+  margin: 0 auto;
+  max-width: 1000px;
+  width: var(--flag-width-in-pixels);
+}
+
+.singapore {
+  background: linear-gradient(to bottom, #C73b3C 50%, #FFF 50%);
 }
 
 html {
