@@ -1,0 +1,85 @@
+:root {
+    /* main configuration */
+    --base-angle: 180deg;
+    --circle-radius: 50%;
+    --crescent-size-on-flag: 3;
+    --moon-size-on-flag: 13.25;
+    --main-bg-color: #252525;
+    --rotation-angle: 108deg;
+    /* auto configuration */
+  
+    --crescent-effect: calc(-1 * var(--crescent-size)) 0px 0 0 #fff;
+    --crescent-size: calc(
+      var(--moon-size) * var(--crescent-size-on-flag) / var(--moon-size-on-flag)
+    );
+    --left-space: calc(var(--crescent-size) + var(--moon-surrounding));
+  
+    --main-triangle: 35px solid #fff;
+  
+    --moon-size: 100px;
+    --moon-surrounding: 10px;
+    --remove-triangle: 50px solid transparent;
+    --rotate-left: calc(var(--base-angle) + var(--rotation-angle));
+    --rotate-right: calc(var(--base-angle) - var(--rotation-angle));
+  }
+  
+  html {
+    background-color: var(--main-bg-color);
+  }
+  
+  .stars {
+    position: absolute;
+  }
+  
+  .star {
+    border-bottom: var(--main-triangle);
+    border-left: var(--remove-triangle);
+    border-right: var(--remove-triangle);
+    display: inline-block;
+    height: 0;
+    left: 0;
+    position: relative;
+    top: 35px;
+    transform: rotate(var(--base-angle));
+    width: 0;
+  }
+  
+  .star::before {
+    border-bottom: var(--main-triangle);
+    border-left: var(--remove-triangle);
+    border-right: var(--remove-triangle);
+    content: "";
+    display: inline-block;
+    height: 0;
+    left: -50px;
+    position: relative;
+    transform: rotate(var(--rotate-left));
+    width: 0;
+  }
+  
+  .star::after {
+    border-bottom: var(--main-triangle);
+    border-left: var(--remove-triangle);
+    border-right: var(--remove-triangle);
+    content: "";
+    display: inline-block;
+    height: 0;
+    left: -48px;
+    position: relative;
+    top: -39px;
+    transform: rotate(var(--rotate-right));
+    width: 0;
+  }
+  
+  .crescent {
+    background-color: transparent;
+    border-radius: var(--circle-radius);
+    box-shadow: var(--crescent-effect);
+    display: inline-block;
+    height: var(--moon-size);
+    left: var(--left-space);
+    position: relative;
+    top: var(--moon-surrounding);
+    width: var(--moon-size);
+  }
+  
