@@ -19,9 +19,9 @@
   --triangle-width-on-flag: 3.28;
 
   /* flag size in pixels (Provide any size you wish the rest will be calculated) */
-  --flag-width-in-pixels: 540px;
+  --flag-width-in-pixels: 825px;
 
-  /* auto configuration */
+  /* auto configuration and ratio calculation */
   --stars-size-on-flag: calc(var(--crescent-size-on-flag) + var(--stars-on-flag));
   --flag-height-in-pixels: calc(
     var(--flag-width-in-pixels) * var(--flag-height) / var(--flag-width)
