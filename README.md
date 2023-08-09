@@ -4,7 +4,7 @@ CSS Country Flags is a delightful project that aims to bring the flags of the wo
 
 Starting with the Singapore flag in honor of Singapore National Day, this project will expand to include flags from different countries, each carefully crafted with simple code.
 
-![Image of Singapore Flag](image/sg/Singapore Flag.jpg) *Preview of the Singapore flag created with CSS*
+![Image of Singapore Flag](./image/sg/Singapore Flag.jpg) *Preview of the Singapore flag created with CSS*
 
 ## 🌏 Flags Collection
 
