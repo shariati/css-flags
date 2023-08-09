@@ -33,20 +33,20 @@ Each feature of the Flag bears a unique symbolic meaning. Red stands for univers
 ```
 
 ### Root Directory
-`LICENSE.md`: Contains the license details for your project, specifying the terms under which the project can be used, modified, and distributed.
-`README.md`: The main documentation file that explains the purpose of the project, how to use it, and other essential information.
-`build`: This folder is commonly used to store compiled or minified versions of source code, ready for deployment.
-`image`: A folder containing images related to the project. Inside the `images/` folder, you'll find subfolders named with ISO 3166 alpha-2 country codes. 
-Each subfolder contains:
-`sg`: A subdirectory containing files related to the Singapore flag.
-`Singapore Flag.ai`: An Adobe Illustrator file containing a vector design of the Singapore flag.
-`Singapore Flag.jpg`: A raster image file (JPEG) of the Singapore flag.
-`Singapore Flag.svg`: An SVG (Scalable Vector Graphics) file of the Singapore flag, ideal for web use.
+- `LICENSE.md`: Contains the license details for your project, specifying the terms under which the project can be used, modified, and distributed.
+- `README.md`: The main documentation file that explains the purpose of the project, how to use it, and other essential information.
+- `build`: This folder is commonly used to store compiled or minified versions of source code, ready for deployment.
+- `image`: A folder containing images related to the project. Inside the `images/` folder, you'll find subfolders named with ISO 3166 alpha-2 country codes. 
+- Each subfolder contains:
+  - `sg`: A subdirectory containing files related to the Singapore flag.
+  - `Singapore Flag.ai`: An Adobe Illustrator file containing a vector design of the Singapore flag.
+  - `Singapore Flag.jpg`: A raster image file (JPEG) of the Singapore flag.
+  - `Singapore Flag.svg`: An SVG (Scalable Vector Graphics) file of the Singapore flag, ideal for web use.
 
-`src`: The source directory, containing the main HTML and CSS files that make up the project.
-`css`: Contains the CSS files for the project.
-`sg.css`: The specific CSS file for styling the Singapore flag.
-`index.html`: The main HTML file that contains the structure of the web page, including the flag's HTML representation.
+- `src`: The source directory, containing the main HTML and CSS files that make up the project.
+- `css`: Contains the CSS files for the project.
+- `sg.css`: The specific CSS file for styling the Singapore flag.
+- `index.html`: The main HTML file that contains the structure of the web page, including the flag's HTML representation.
 
 ## Usage
 
