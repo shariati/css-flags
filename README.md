@@ -36,7 +36,7 @@ Each feature of the Flag bears a unique symbolic meaning. Red stands for univers
 - `LICENSE.md`: Contains the license details for your project, specifying the terms under which the project can be used, modified, and distributed.
 - `README.md`: The main documentation file that explains the purpose of the project, how to use it, and other essential information.
 - `build`: This folder is commonly used to store compiled or minified versions of source code, ready for deployment.
-- `image`: A folder containing images related to the project. Inside the `images/` folder, you'll find subfolders named with ISO 3166 alpha-2 country codes. 
+- `image`: A folder containing images related to the project. Inside the `image/` folder, you'll find subfolders named with ISO 3166 alpha-2 country codes. 
 - Each subfolder contains:
   - `sg`: A subdirectory containing files related to the Singapore flag.
   - `Singapore Flag.ai`: An Adobe Illustrator file containing a vector design of the Singapore flag.
