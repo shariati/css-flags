@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Singapore_Flag" data-name="Singapore Flag" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1620 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="810" y1="1026.37" x2="810" y2="66.3" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".5" stop-color="#fff"/>
+      <stop offset=".5" stop-color="#ee2536"/>
+      <stop offset="1" stop-color="#ee2536"/>
+    </linearGradient>
+  </defs>
+  <g id="Flag_Background" data-name="Flag Background">
+    <rect class="cls-1" width="1620" height="1080"/>
+  </g>
+  <g id="Crescent_and_Stars" data-name="Crescent and Stars">
+    <g id="Crescent">
+      <path class="cls-2" d="m249.81,273.18c0-93.25,64.24-171.47,150.87-192.91-13.6-2.94-27.7-4.53-42.17-4.53-109.77,0-198.75,88.98-198.75,198.75s88.98,198.75,198.75,198.75c16.51,0,32.54-2.05,47.88-5.84-89.5-19.35-156.58-98.93-156.58-194.22Z"/>
+    </g>
+    <g id="_5_Stars" data-name="5 Stars">
+      <polygon id="Star_Top-Left" data-name="Star Top-Left" class="cls-2" points="306.37 226.5 409.87 226.5 325.65 287.89 358.12 188.87 390.33 287.89 306.37 226.5"/>
+      <polygon id="Star_Bottom-Left" data-name="Star Bottom-Left" class="cls-2" points="354.37 357 457.87 357 373.65 418.39 406.12 319.37 438.33 418.39 354.37 357"/>
+      <polygon id="Star_Bottom-Right" data-name="Star Bottom-Right" class="cls-2" points="477.37 357 580.87 357 496.65 418.39 529.12 319.37 561.33 418.39 477.37 357"/>
+      <polygon id="Star_Top-Right" data-name="Star Top-Right" class="cls-2" points="525.37 226.5 628.87 226.5 544.65 287.89 577.12 188.87 609.33 287.89 525.37 226.5"/>
+      <polygon id="Star_Top" data-name="Star Top" class="cls-2" points="415.75 150 519.25 150 435.03 211.39 467.5 112.37 499.72 211.39 415.75 150"/>
+    </g>
+  </g>
+</svg>
