@@ -4,7 +4,7 @@ CSS Country Flags is a delightful project that aims to bring the flags of the wo
 
 Starting with the Singapore flag in honor of Singapore National Day, this project will expand to include flags from different countries, each carefully crafted with simple code.
 
-![Image of Singapore Flag](/path/to/singapore-flag-preview.png) *Preview of the Singapore flag created with CSS*
+![Image of Singapore Flag](image/sg/Singapore Flag.jpg) *Preview of the Singapore flag created with CSS*
 
 ## 🌏 Flags Collection
 
@@ -31,7 +31,7 @@ Simply include the specific CSS file for the flag you wish to use and refer to t
 
 ```html
 <link rel="stylesheet" href="path/to/flag.css">
-<div class="flag-class">
+<div class="flags singapore">
   <!-- Content goes here -->
 </div>
 ```
